@@ -55,6 +55,6 @@ Codes can be tested using any online editor such as [Programiz](https://www.prog
 ## Submission
 
 - You could submit by zipping up the project folder, place it on a public google drive, and submit the URL to NTU Survey Portal, or
-- Submit a github url if you have knowledge of using github.
+- Submit a github url if you have knowledge of using git and Github.
 
 > Should you face any difficulties, please contact your program administrator.
