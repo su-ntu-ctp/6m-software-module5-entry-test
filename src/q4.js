@@ -1,30 +1,27 @@
 /*
-    Task 1: 
-    - Implement a Child class that extends the Parent.
-    - Add a constructor to the Child class can calls super().
-    - Implement a new function addNewAbilities(newAbility) in the Child class where the new ability will be added to the Parent's #abilities array.     
+Question 4: 
+
+Object Destructuring is used to unpack properties in objects and this allows the properties to be used as variables.
+
+In this question, use object structuring to print ONLY the first name and job title of the objects.
 */
-class Parent{
-    abilities = []
-
-    constructor(){
-        this.abilities.push("Parenting");
-        this.abilities.push("Role modeling");
-    }
-
-    showAbilities(){
-        console.log("These are the abilities:")
-        for(const a of this.abilities){
-            console.log(a);
-        }
-    }
+const obj1 = {
+    firstname: "Tom",
+    lastname: "Smith",
+    job: "Singer"
 }
 
-const p = new Parent();
-p.showAbilities(); // Observe that this function prints "Parenting" and "Role modeling".
+const obj2 = {
+    firstname: "Maggie",
+    lastname: "Lancaster",
+    job: "Teacher"
+}
 
-// Task 1: Add code here
+/*
+Modify this function to print in the console:
+Hello, this is <firstname>, their job is a/an <job>
+*/
+const print = () => {}
 
-const c = new Child();
-c.addNewAbility("Dancing");
-c.showAbilities(); // This function should print "Parenting", "Role modeling" and "Dancing".
+print(obj1);
+print(obj2);

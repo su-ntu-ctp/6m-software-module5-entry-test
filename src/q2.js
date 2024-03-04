@@ -1,26 +1,8 @@
 /*
-    Task 1: 
-    - Declare an array that are going to be used to store patient's name.
+Question 2:
+Arrow functions typically are used as anonymous functions as inputs to higher order functions.
 
-    Task 2: 
-    - Add code to add patient's name into the array declared in task 1.
-
-    Task 3: 
-    - Implement listPatient() function to print all patient's name stored in the array
+In this question, use the forEach method along with an anonymous function to get the square of all the even elements of a given array.
 */
 
-
-// Task 1: Add code here
-
-function addPatient(patientName){
-    // Task 2: Add code here
-}
-
-// Task 3: Add code here
-
-
-addPatient("John");
-addPatient("Mary");
-addPatient("Mark");
-
-listPatient(); // This should list ["John", "Mary", "Mark"]
+const test = [1, 2, 15, 8, 10, 31];
