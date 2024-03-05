@@ -42,11 +42,11 @@ These videos can be helpful in learning JavaScript
 ## Problems
 
 Please attempt the solve the problems described in the following files:
-- Q1
-- Q2
-- Q3
-- Q4
-- Q5
+- [Q1](./src/q1.md)
+- [Q2](./src/q2.js)
+- [Q3](./src/q3.md)
+- [Q4](./src/q4.js)
+- [Q5](./src/q5.md)
 
 ## Testing
 
